@@ -1,0 +1,23 @@
+{
+  "name": "node-plataforma-de-pergunta",
+  "version": "1.0.0",
+  "description": "Plataforma de perguntas e respostas em Node utilizando EJS Express e MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelodc/Node-plataforma-de-perguntas.git"
+  },
+  "author": "douglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelodc/Node-plataforma-de-perguntas/issues"
+  },
+  "homepage": "https://github.com/angelodc/Node-plataforma-de-perguntas#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
