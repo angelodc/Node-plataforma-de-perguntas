@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+app.use(express.static('public'));
 
 // estou dizendo para o Express usar EJS como View engine
 app.set('view engine', 'ejs');
