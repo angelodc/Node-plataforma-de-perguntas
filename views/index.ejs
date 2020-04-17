@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guia perguntas</title>
 </head>
+
 <body>
     <H1>Guia perguntas</H1>
     <hr>
     <%= nome %> gosta de <%= comida%>
-   
+
+
+    <% if(msg ==true){ %>
+    <h6>isso é uma mensagem de erro</h6>
+    <% } else{ %>
+    <h6>não há mensagem de erro</h6>
+    <% } %>
+
+    <% produtos.forEach(element => { %>
+        <hr>
+        <%= element.nome %> 
+        <br>
+        <%= element.preco %> 
+        
+     
+    <% }) %>
+
+    
+
+
 </body>
+
 </html>
