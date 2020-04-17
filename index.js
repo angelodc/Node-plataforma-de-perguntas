@@ -16,8 +16,6 @@ app.get("/", (req, res) => {
         { nome: "batatas", preco: 2.25 }
     ]
 
-
-
     res.render("index", {
         comida: comida,
         nome: nome,
@@ -26,5 +24,10 @@ app.get("/", (req, res) => {
     });
 
 });
+
+app.get("/perguntar",(req,res) =>{
+    res.render("perguntar");
+});
+
 
 app.listen(8080, () => { console.log("app rodando"); });
